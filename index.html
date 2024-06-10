@@ -11,13 +11,16 @@ display:none;
     font-family: Arial;
     color:aqua;
 }
-    .btn {
+    #btn {
   background-color: white;
   color: black;
   border: 2px solid black;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 16px 32px;
 }
 
-.btn:hover {
+#btn:hover {
   background-color: darkslategray;
   color: white;
 }
@@ -33,7 +36,7 @@ document.getElementById("image").style.display="block";
 </head>
 <body>
 <center>
-<button onclick="onclickme()">Click here!</button>
+<button onclick="onclickme()" id="btn">Click here!</button>
 <p id="output"></p>
 <img src="WhatsApp Image 2024-06-09 at 18.49.01_e5cc11d7.jpg" id="image" alt="Vijesh">
 </center>
